@@ -1,3 +1,8 @@
+body
+{
+    background-color: #282C34;
+}
+
 
 .maindiv
 {
@@ -40,7 +45,7 @@
     top: 58px;
     bottom: 16px;
     font-family: Courier, monospace;
-    font-weight: bold;   
+    font-weight: bold;
     background-color: #FFFFFF;
     border-radius: 4px 4px 4px 4px;
     overflow: auto;
@@ -66,25 +71,25 @@ A:hover {text-decoration: underline; color:#FFFFFF; outline : none; border : 0;}
     border: solid 1px #808080;
     height: 20px;
 	line-height: 20px;
-    color: #404040;
-    background: linear-gradient(#ffffff, #C0C0D0);
+    color: #FFFFFF;
+    background: linear-gradient(#282C34, #000000);
 }
 
 .button:hover
 {
-    background: linear-gradient(#ffffff, #D0D0F0);
+    background: linear-gradient(#282C34, #202020);
 }
 
 .button:active
 {
-	box-shadow: inset 1px 1px 1px #808080;
-    background: linear-gradient(#ffffff, #A0A0F0);
+	box-shadow: inset 1px 1px 1px #000000;
+    background: linear-gradient(#282C34, #202020);
 }
 
 .roundcorners
 {
-	background: #FFFFFF;
-	border:1px solid #808080;
+	background: #282C34;
+	border:2px solid #404040;
     border-radius: 4px 4px 4px 4px;
 }
 
@@ -94,7 +99,7 @@ A:hover {text-decoration: underline; color:#FFFFFF; outline : none; border : 0;}
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     overflow: hidden;
-    color: #404040;
+    color: #FFFFFF;
     margin:4px;
 }
 
@@ -131,6 +136,18 @@ th
     color: #404040;
     margin:4px;
     font-weight: bold;
+}
+
+.output
+{
+    border:1px solid #404040;
+    height:20px;
+    color: #FFFFFF;
+    border-radius: 2px 2px 2px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding: 2px;
+    line-height: 20px;
 }
 
 hr

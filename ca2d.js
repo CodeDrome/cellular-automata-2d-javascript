@@ -297,7 +297,7 @@ class CellularAutomaton2D
 
     Step()
     {
-    	if(Initialized === true)
+    	if(this._Initialized === true)
     	{
     		this._CalculateNextState();
         }
